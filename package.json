@@ -1,0 +1,21 @@
+{
+  "name": "jstransformer-jade",
+  "version": "0.0.0",
+  "description": "Transform Jade template into HTML.",
+  "keywords": [
+    "jstransformer",
+    "jade"
+  ],
+  "dependencies": {
+    "jade": "^1.9.2"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-jade.git"
+  },
+  "author": "TimothyGu",
+  "license": "MIT"
+}
