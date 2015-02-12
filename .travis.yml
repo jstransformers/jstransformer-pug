@@ -5,4 +5,4 @@ node_js:
   - 0.12
   - 1.2
 
-script: npm run coverage
+script: npm run coveralls
