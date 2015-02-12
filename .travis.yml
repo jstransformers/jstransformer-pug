@@ -5,5 +5,4 @@ node_js:
   - 0.12
   - 1.2
 
-test:
-  - npm run coverage
+script: npm run coverage
