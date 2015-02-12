@@ -13,7 +13,7 @@ var output;
 var failed = false;
 
 console.log('\ncompile():')
-output = transform.compile(input)(locals);
+output = transform.compile(input).fn(locals);
 console.log('\tOutput:', JSON.stringify(output));
 console.log('\tExpected:', JSON.stringify(expected));
 if (output !== expected) {
@@ -23,7 +23,7 @@ if (output !== expected) {
 
 console.log('\ncompileClient():')
 output = transform.compileClient(input);
-output = Function('jade', output + '\nreturn template;')(jade.runtime)
+output = Function('jade', output.body + '\nreturn template;')(jade.runtime)
 output = output(locals);
 console.log('\tOutput:', JSON.stringify(output));
 console.log('\tExpected:', JSON.stringify(expected));
