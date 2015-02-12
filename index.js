@@ -10,6 +10,3 @@ exports.compile = function (source, options) {
 exports.compileClient = function (source, options) {
   return jade.compileClient(source, options);
 };
-exports.render = function (source, options, locals) {
-  return jade.compile(source, options)(locals);
-};

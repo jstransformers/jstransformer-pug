@@ -21,15 +21,6 @@ if (output !== expected) {
   failed = true;
 } else console.log('\tPASSED');
 
-console.log('\nrender():')
-output = transform.render(input, {}, locals);
-console.log('\tOutput:', JSON.stringify(output));
-console.log('\tExpected:', JSON.stringify(expected));
-if (output !== expected) {
-  console.log('\tFAILED');
-  failed = true;
-} else console.log('\tPASSED');
-
 console.log('\ncompileClient():')
 output = transform.compileClient(input);
 output = Function('jade', output + '\nreturn template;')(jade.runtime)
