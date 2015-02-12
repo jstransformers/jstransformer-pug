@@ -9,13 +9,19 @@
   "dependencies": {
     "jade": "^1.9.2"
   },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5"
+  },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "coverage": "istanbul cover test",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-jade.git"
   },
-  "author": "TimothyGu",
+  "author": "Timothy Gu <timothygu99@gmail.com>",
   "license": "MIT"
 }
