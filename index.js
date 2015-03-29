@@ -4,7 +4,7 @@ var jade = require('jade');
 var fs   = require('fs');
 
 exports.name = 'jade';
-exports.outputFormat = 'xml';
+exports.outputFormat = 'html';
 exports.compile = function (source, options) {
   var fn = jade.compile(source, options);
   return {fn: fn, dependencies: fn.dependencies}
