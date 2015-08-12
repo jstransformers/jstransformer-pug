@@ -1,27 +1,28 @@
 {
+  "dependencies": {
+    "jade": "^1.9.2"
+  },
   "name": "jstransformer-jade",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Transform Jade template into HTML.",
   "keywords": [
     "jstransformer",
     "jade"
   ],
-  "dependencies": {
-    "jade": "^1.9.2"
-  },
   "devDependencies": {
-    "coveralls": "^2.11.2",
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
     "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "test-jstransformer coverage"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-jade.git"
   },
-  "author": "Timothy Gu <timothygu99@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
