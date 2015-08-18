@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "jade": "^1.9.2"
+    "jade": "^1.11.0"
   },
   "name": "jstransformer-jade",
   "version": "0.1.0",
