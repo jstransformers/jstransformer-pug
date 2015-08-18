@@ -4,17 +4,20 @@
   },
   "name": "jstransformer-jade",
   "version": "0.1.0",
-  "description": "Transform Jade template into HTML.",
+  "description": "Jade support for JSTransformers.",
   "keywords": [
     "jstransformer",
     "jade"
+  ],
+  "files": [
+    "index.js"
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
   },
   "repository": {
     "type": "git",
