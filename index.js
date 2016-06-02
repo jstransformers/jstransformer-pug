@@ -1,10 +1,10 @@
 'use strict';
 
 var jade = require('jade');
-var fs   = require('fs');
 
 exports.name = 'jade';
 exports.outputFormat = 'html';
+
 exports.compile = function (source, options) {
   var fn = jade.compile(source, options);
   return {fn: fn, dependencies: fn.dependencies}
@@ -17,6 +17,8 @@ exports.compileFile = function (path, options) {
   return {fn: fn, dependencies: fn.dependencies}
 };
 exports.compileFileClient = function (path, options) {
+  var fs   = require('fs');
+
   // There is no compileFileClientWithDependenciesTracked so gotta do it
   // manually.
   options = options || {};

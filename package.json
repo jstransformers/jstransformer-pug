@@ -3,7 +3,7 @@
     "jade": "^1.11.0"
   },
   "name": "jstransformer-jade",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jade support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -18,6 +18,9 @@
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
