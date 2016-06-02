@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "pug": "^2.0.0-alpha8t"
+    "pug": "^2.0.0-alpha8"
   },
   "name": "jstransformer-pug",
   "version": "0.2.0",
