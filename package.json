@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "jade": "^1.11.0"
+    "pug": "^2.0.0-alpha8t"
   },
-  "name": "jstransformer-jade",
-  "version": "0.1.1",
-  "description": "Jade support for JSTransformers.",
+  "name": "jstransformer-pug",
+  "version": "0.2.0",
+  "description": "Pug support for JSTransformers.",
   "keywords": [
     "jstransformer",
-    "jade"
+    "pug"
   ],
   "files": [
     "index.js"
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-jade.git"
+    "url": "https://github.com/jstransformers/jstransformer-pug.git"
   },
   "author": {
     "name": "JSTransformers Team",

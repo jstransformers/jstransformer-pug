@@ -1,19 +1,19 @@
 'use strict';
 
-var jade = require('jade');
+var pug = require('pug');
 
-exports.name = 'jade';
+exports.name = 'pug';
 exports.outputFormat = 'html';
 
 exports.compile = function (source, options) {
-  var fn = jade.compile(source, options);
+  var fn = pug.compile(source, options);
   return {fn: fn, dependencies: fn.dependencies}
 };
 exports.compileClient = function (source, options) {
-  return jade.compileClientWithDependenciesTracked(source, options);
+  return pug.compileClientWithDependenciesTracked(source, options);
 };
 exports.compileFile = function (path, options) {
-  var fn = jade.compileFile(path, options);
+  var fn = pug.compileFile(path, options);
   return {fn: fn, dependencies: fn.dependencies}
 };
 exports.compileFileClient = function (path, options) {
