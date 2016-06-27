@@ -3,6 +3,7 @@
 var pug = require('pug');
 
 exports.name = 'pug';
+exports.inputFormats = ['pug', 'jade'];
 exports.outputFormat = 'html';
 
 exports.compile = function (source, options) {
