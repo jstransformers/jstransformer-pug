@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.1: 2016-06-27
+
+- Add `jade` to `inputFormats`
+
 ## v0.2.0: 2016-06-02
 
 - Update to [Pug](http://npm.im/pug)
