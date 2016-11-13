@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.2: 2016-11-13
+
+- Update Boilerplate
+
 ## v0.2.1: 2016-06-27
 
 - Add `jade` to `inputFormats`

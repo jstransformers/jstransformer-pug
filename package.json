@@ -3,7 +3,7 @@
     "pug": "^2.0.0-beta6"
   },
   "name": "jstransformer-pug",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Pug support for JSTransformers.",
   "keywords": [
     "jstransformer",
