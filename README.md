@@ -1,5 +1,7 @@
 # jstransformer-pug
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-pug.svg)](https://greenkeeper.io/)
+
 [Pug](http://npm.im/pug) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-pug/master.svg)](https://travis-ci.org/jstransformers/jstransformer-pug)
