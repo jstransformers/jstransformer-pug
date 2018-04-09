@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.0: 2017-12-16
+
+- Update to `pug@^2.0.0-rc.4`
+- Update dependencies
+
 ## v0.2.3: 2017-02-11
 
 - Force an update to `pug@^2.0.0-beta11`
