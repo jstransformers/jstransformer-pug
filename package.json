@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "snyk": "^1.316.1"
   },
   "name": "jstransformer-pug",
   "version": "0.3.0",
@@ -18,7 +19,9 @@
   },
   "scripts": {
     "test": "test-jstransformer",
-    "posttest": "xo --space=2 --no-semicolon index.js"
+    "posttest": "xo --space=2 --no-semicolon index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=4"
@@ -31,5 +34,6 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
