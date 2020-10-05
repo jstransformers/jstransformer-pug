@@ -3,9 +3,9 @@ sudo: false
 
 node_js:
   - "10"
-  - "11"
   - "12"
-  - "13"
+  - "14"
+  - "15"
 
 notifications:
   email: false
