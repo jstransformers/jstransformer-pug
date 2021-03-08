@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "pug": "^2.0.0-rc.4"
+    "pug": "^3.0.2"
   },
   "name": "jstransformer-pug",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Pug support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -13,7 +13,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "test-jstransformer": "^1.0.0",
+    "test-jstransformer": "*",
     "xo": "*"
   },
   "scripts": {

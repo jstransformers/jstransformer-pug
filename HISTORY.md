@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.0: 2021-03-08
+
+- Update to `pug@^3.0.2`
+
 ## v0.3.0: 2017-12-16
 
 - Update to `pug@^2.0.0-rc.4`
