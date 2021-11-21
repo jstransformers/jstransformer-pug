@@ -9,7 +9,9 @@
 
 ## Installation
 
-    npm install jstransformer-pug
+```bash
+npm install jstransformer-pug
+```
 
 ## API
 
